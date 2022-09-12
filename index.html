@@ -11,51 +11,42 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
 
     <title>Frontend Mentor | QR code component</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      html,
-      body {
-        height: 100vh;
-        width: 100vw;
-        position: absolute;
-        background-color: rgb(196, 239, 250);
-      }
-
-      * {
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-      }
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-        margin: 5rem;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="card">
-      <img src="" alt="" />
-      <div class="title">
-        Improve your front-end skills by building projects
-        <div class="description">
-          Scan the QR code to visit Frontend Mentor and take your coding skills
-          to the next level
+    <div class="container" role="main">
+      <div class="card">
+        <div class="image">
+          <img
+            src="./images/QrCode.png"
+            alt="this is frontend mentor QR code "
+          />
+        </div>
+        <div class="text">
+          <h1>Improve your front-end skills by building projects</h1>
+          <p>
+            Scan the QR code to visit Frontend Mentor and take your coding
+            skills to the next level
+          </p>
         </div>
       </div>
     </div>
-
-    <div class="attribution">
+    <footer class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Mohamed Elyes Ben khoud</a>.
-    </div>
+      >. Coded by
+      <a href="https://github.com/ElyesBenkhoud" target="_blank"
+        >Mohamed Elyes Ben khoud</a
+      >.
+    </footer>
   </body>
 </html>
